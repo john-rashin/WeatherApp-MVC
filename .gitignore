@@ -1,0 +1,30 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific settings
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Logs and temporary files
+logs/
+*.log
+temp/
+
+# ASP.NET Core environment settings
+appsettings.json
+appsettings.*.json
+secrets.json
+
+# Package dependencies
+node_modules/
+wwwroot/lib/
+
+# Resharper and Rider files
+*.DotSettings
+.idea/
+
+# Publish artifacts
+publish/
