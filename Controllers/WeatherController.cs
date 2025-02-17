@@ -5,11 +5,11 @@ public class WeatherController : Controller
 {
     private readonly WeatherService _weatherService;
 
-    public WeatherController()
+    public WeatherController(IConfiguration configuration)
     {
-        _weatherService = new WeatherService();
+        _weatherService = new WeatherService(configuration);
     }
-
+ 
     public IActionResult Index()
     {
         return View();
